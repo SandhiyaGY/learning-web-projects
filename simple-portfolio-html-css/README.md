@@ -39,18 +39,8 @@
   </ul>
 
   <h2>⚙️ Demo</h2>
-  <p>Preview the portfolio in your browser:</p>
-  <pre><code># Clone the repo
-git clone https://github.com/SandhiyaGY/project-based-learning.git
-
-# Navigate to the portfolio directory
-cd project-based-learning/web-development/html-css-portfolio
-
-# Open in browser
-open index.html  # macOS
-start index.html # Windows</code></pre>
-  <p>Or view it directly via GitHub Pages once hosted.</p>
-
+  <p><a href="https://github.com/SandhiyaGY/learning-web-projects/blob/main/simple-portfolio-html-css/demo.mp4" target="_blank">Click here to watch demo</a></p>
+  
   <h2>📈 Project Highlights</h2>
   <ul>
     <li><strong>Summary</strong>: Motivated IT student building full-stack skillset; focus: HTML, CSS, Java, JavaScript.</li>
