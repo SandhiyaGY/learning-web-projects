@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+</head>
+<body>
+  <h1 id="title">Comprehensive Result Survey System</h1>
+  <p id="description">Thank you for taking the time to share your results and feedback.</p>
+<form id="survey-form">
+  
+
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" placeholder="Enter your name" required>
+
+  <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" placeholder="Enter your email" required>
+
+  <label for="roll" id="roll-label">Register Number</label>
+  <input id="roll" type="text" placeholder="Enter your regno" required>
+
+
+  <!-- <label for="number" id="number-label">Year of Study</label>
+  <input id="number" type="number" placeholder="Year (Like 1,2,3,4)" min="1" max="4" required> -->
+
+  <label for="dropdown">Department</label>
+  <select id="dropdown" name="dept" required>
+    <option value="">Select an option</option>
+    <option value="cse">CSC</option>
+    <option value="it">IT</option>
+    <option value="ece">ECE</option>
+    <option value="mech">MECH</option>
+    <option value="eee">EEE</option>
+  </select>
+
+  <label for="gpa" id="gpa-label">GPA</label>
+  <input id="gpa" type="number" step="any" placeholder="Enter your gpa" inputmode="decimal">
+
+  <fieldset>
+    <legend>Accommodation Type</legend>
+    <label><input type="radio" value="day-scholar" name="residence" required> Day-Scholar</label>
+    <label><input type="radio" value="hosteller" name="residence"> Hosteller</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Exam Feedback</legend>
+    <label><input type="checkbox" name="feedback" value="clear-questions"> Questions were clear</label>
+    <label><input type="checkbox" name="feedback" value="time-sufficient"> Sufficient time provided</label>
+    <label><input type="checkbox" name="feedback" value="fair-grading"> Grading was fair</label>
+    <label><input type="checkbox" name="feedback" value="difficult-paper"> Paper was too difficult</label>
+  </fieldset>
+
+  <label for="suggestions">Suggestions</label>
+  <textarea id="suggestions" name="suggestions" rows="5" placeholder="Your suggestions here..."></textarea>
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+
+</body>
+</html>

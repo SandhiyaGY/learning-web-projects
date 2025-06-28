@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80')
+    no-repeat center/cover fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+#title {
+  text-align: center;
+  margin: 20px 0 10px;
+}
+#description {
+  text-align: center;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: white;
+  width: 400px;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 0 auto 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+  cursor: pointer;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3a86ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #265dff;
+}
+
+/* ✔️ Align radios and checkboxes using flexbox */
+fieldset label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 8px 0 0;
+  flex: none; /* ensures consistent size */
+  vertical-align: middle;
+}
